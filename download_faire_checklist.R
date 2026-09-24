@@ -1,6 +1,6 @@
 download_faire_checklist <- function(FAIRe_checklist_ver = 'v1.0.2') {
   url_repo <- "https://raw.githubusercontent.com/FAIR-eDNA/FAIRe_checklist/main/"
-  name_template <- paste0("FAIRe_checklist_", FAIRe_checklist_ver, "_FULLtemplate.xlsx")
+  name_template <- paste0("FAIRe_checklist_", FAIRe_checklist_ver, ".xlsx")
   if (file.exists(name_template)) {
     message("Template with most recent version already exists")
   } else {
